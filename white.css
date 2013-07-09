@@ -1,0 +1,348 @@
+/* HIDDEN ELEMENTS */
+    #identity-box,
+    #urlbar-icons > image,
+    #urlbar-container dropmarker,
+    #appmenu-button .button-text,
+    #appmenu-button .button-menu-dropmarker
+
+    {
+        display:none!important;
+    }
+
+li.selected {
+display:none!important;
+}
+
+/* BUTTONS */
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon,
+#appmenu-button .button-icon
+{
+    list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrsVk1IG0EU3s3mx1RXY2qxaa0ULFakUogUESUnPaS0Wlo1oifbQ0AUDx704EGIeBAkUXOzEq0/kHpose2h2IbexUKLFA8VokIPKaghrfmpyfa9dELHcTai0FsXNpPZ+d43b9773tsVFUUR/l+CoM38EUWRXZPg1sCdgjuJDzJBI9gT61kukeyFNgrBJ8n/NC9waii+FGWr9vzUdcKb8VWifBVpG8RpVByXent7rywtLSX6+voKeAB8juuII5sIKk5qAZs/OzvrWVxc3Jufn38zPT39hASGjr5mYWEh0NTUVEDxSTgHuy+Ei5tMWP9IJ5W9enp6isDX+OTk5H3CfcKGR64dGhq6UVtbu7OxsXFzYmIizCPH57iOOMRzHNE0NzcXwsE/GAyGYgjE4MrKyrWDgwOvTqezQTAeMwFMra+vO9rb27/bbDYZ5rq6urpch8OxOzMzc0dFDZlsl2VJhuD1eiM4ms1mNySlGLlZGzYQksvlulVZWbm5trZ2fXR0dCuL7JO4jjjEox1NDGuXW1pa3oI0S6uqql5Fo9Ejv9+/Bwp6HYlElnNyclrZQLjd7tDY2JjZ6XRuw9zY3d39rbOz81IgEIhwykWPGLgNsEd6JHO9mnrC4bDParW6MRDE5m/t0nXf1dWV19jYGIHM3B4fH9+Exwm25jj9RN/f319RXV39aXV1Vfb5fD8yzjY0NBQBZxAcGITDvxgYGNhFc1BKUVtb2zYc0gzzGFXLAsmWEaQc7ujowDKJwv1LpRzKyIHEP+4piN0CXiuMRxTvBeD7CXxmUOjLUCj0zGKxPIV5Lqwdps+FP9SbQyJGcciGhZUbg03jEYd4tOPI0zA3N/fe4/E8pDKlnZqaegAOvSNZPLY/9IRCOCSWYz7wHoGUr3J4aUWYAIdqMbGKoHiNBJOHZQx7f4W5QnwWeM0SyyAGkTLV19cHQe4VWWoPy6gCcYhHO04ZJROJxHOTyfQIDn8XlHARxnuyLLfGYrFlBq+x2+0y9IQg9IRSVAKWSU1Nzfbw8DDrR4qoFRUQJ0qIk3mC108IJjkyMhLc3993CRyAwPmWwAAZscsTqfKwOrJuzNLRUZc6aIxOVADgD3HEOeEVqcyl5Q4dvph+a5SXl8uojJKSEr3KHnqw+0yUIPBKmcGIRCEKrUhRpe6572cGe9r7nQ5G5j0unvM7QiL4835HsJhjnLwekfU6C/Ys17/6uj3LuX4LMACwT+lvQQrZSgAAAABJRU5ErkJggg==")!important;
+}
+    #back-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 11px, 11px, 0)!important;
+    }
+    #forward-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 22px, 11px, 11px)!important;
+    }
+    #reload-button .toolbarbutton-icon,
+    #urlbar-reload-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 33px, 11px, 22px)!important;
+    }
+    #stop-button .toolbarbutton-icon,
+    #urlbar-stop-button .toolbarbutton-icon,
+    #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 44px, 11px, 33px)!important;
+    }
+    #new-tab-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 55px, 11px, 44px)!important;
+    }
+    #new-tab-button
+    {
+        max-width:16px!important;
+    }
+    #appmenu-toolbar-button .toolbarbutton-icon
+    {
+        -moz-image-region:rect(0, 66px, 11px, 55px)!important;
+    }
+    #back-button,
+    #forward-button,
+    #reload-button,
+    #stop-button,
+    .tab-close-button,
+    #appmenu-toolbar-button
+    {
+        background:transparent!important;
+        border:0!important;
+        min-height:14px!important;
+        max-height:14px!important;
+        min-width:14px!important;
+        max-width:14px!important;
+        margin:0!important;
+        padding:0!important;
+        -moz-appearance:none!important;
+    }
+    #TabsToolbar toolbarbutton .toolbarbutton-icon
+    {
+        margin-top:-3px!important;
+    }
+    #main-window toolbarbutton,
+    #appmenu-toolbar-button
+    {
+        padding-top:2px!important;
+    }
+    #main-window #appmenu-toolbar-button
+    {
+        padding-left:4px!important;
+    }
+    #main-window #appmenu-toolbar-button .toolbarbutton-icon
+    {
+        margin:-1px 0 0!important;
+    }
+     
+    /* URL BAR */
+    #urlbar
+    {
+        background:#d2d2d2!important;
+        border:0!important;
+        border-left:0px solid #d2d2d2!important;
+        color:rgba(45,45,45,.6)!important;
+        margin:0 0 0 3px!important;
+        max-height:16px!important;
+        min-height:16px!important;
+        padding:0 0 0 2px!important;
+        text-align:left!important;
+        -moz-transition:color .2s ease-in,background .2s ease-in;
+        -moz-appearance:none!important;
+    }
+    #urlbar:hover,
+    #main-window #tabbrowser-tabs tab:hover,
+    #main-window #tabbrowser-tabs tab[selected]
+    {
+        background:#454545!important;
+        color:#d2d2d2!important;
+    }
+    #urlbar #notification-popup-box
+    {
+        background:-moz-linear-gradient(rgba(75,75,75,.2),rgba(0,0,0,.4))!important;
+        border:0!important;
+        border-right:1px solid rgba(0,0,0,.4)!important;
+        max-height:16px!important;
+        max-width:16px!important;
+        padding:0 4px!important;
+        border-radius:1px 0 0 1px!important;
+        -moz-border-image:none!important;
+        -moz-margin-end:0!important;
+    }
+    #urlbar #notification-popup-box .notification-anchor-icon
+    {
+        max-height:10px!important;
+        max-width:10px!important;
+    }
+     
+    /* TABS */
+    #main-window #tabbrowser-tabs tab
+    {
+        background:#d2d2d2!important;
+        border:0!important;
+        border-left:0px solid #101010!important;
+        color:rgba(0,0,0,1)!important;
+        margin:0px!important;
+        max-height:16px!important;
+        min-height:16px!important;
+        padding:0 4px!important;
+        border-radius:0!important;
+        font-family: "haxrcorpttf" !important;
+        font-size: 16px !important;
+        font-weight: normal !important;
+    }
+    #main-window #tabbrowser-tabs tab:last-child
+    {
+        border-right:0px solid #101010!important;
+    }
+    #main-window #tabbrowser-tabs tab .tab-label
+    {
+        margin-top:0px!important;
+    }
+    #main-window #tabbrowser-tabs tab .tab-throbber,
+    #main-window #tabbrowser-tabs tab .tab-icon-image
+    {
+        max-height:10px!important;
+        max-width:10px!important;
+        margin-top:-3px!important;
+    }
+  /* #main-window #tabbrowser-tabs tab[fadein]
+    {
+        -moz-transition:color .2s ease-in,all .2s!important;
+    } */
+    #main-window #tabbrowser-tabs tab .tab-close-button
+    {
+        margin-top:0px!important;
+        opacity:0!important;
+        -moz-transition:opacity .1s ease-in!important;
+    }
+    #main-window #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+    {
+        max-height:12px!important;
+        max-width:12px!important;
+    }
+    #main-window #tabbrowser-tabs tab[selected] .tab-close-button,
+    #main-window #tabbrowser-tabs tab:hover .tab-close-button
+    {
+        opacity:0!important;
+    }
+    #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
+    {
+        min-width:15px!important;
+        max-width:15px!important;
+    }
+    #main-window #tabbrowser-tabs tab[pinned]
+    {
+        max-width:10px!important;
+        min-width:10px!important;
+    }
+    #main-window #tabbrowser-tabs tab[pinned] .tab-close-button
+    {
+        display:none!important;
+    }
+     
+    /* ADD ON BAR */
+    toolbar#addon-bar
+    {
+        background:#d2d2d2!important;
+        border:0px solid #101010!important;
+        max-height:18px!important;
+        min-height:18px!important;
+        -moz-appearance:none!important;
+    }
+    toolbar#addon-bar toolbarbutton
+    {
+        border:0!important;
+        max-height:18px!important;
+        min-height:18px!important;
+        margin:0!important;
+        padding:0!important;
+        -moz-appearance:none!important;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton
+    {
+        border:0!important;
+        border-left:0px solid transparent!important;
+        border-right:1px solid transparent!important;
+        max-height:18px!important;
+        min-height:18px!important;
+        max-width:24px!important;
+        min-width:24px!important;
+        padding:0 0 0 3px!important;
+        -moz-appearance:none!important;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton .toolbarbutton-icon
+    {
+        height:16px!important;
+        opacity:.5;
+        width:16px!important;
+        -moz-transition:all .1s linear;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton:hover .toolbarbutton-icon
+    {
+        opacity:1;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton:hover
+    {
+        background:#222!important;
+        border-left:1px solid #101010!important;
+        border-right:1px solid #101010!important;
+        box-shadow:#0f0f0f 0 -1px 3px;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton:active
+    {
+        background:#101010!important;
+        border-left:1px solid #101010!important;
+        border-right:1px solid #101010!important;
+    }
+    scrollbox#PlacesToolbarItems toolbarbutton:first-child,
+    scrollbox#PlacesToolbarItems toolbarbutton:first-child:hover,
+    scrollbox#PlacesToolbarItems toolbarbutton:first-child:active
+    {
+        border-left:0!important;
+    }
+     
+    /* MAIN WINDOW */
+    #main-window #urlbar,
+    #main-window #urlbar-container
+    {
+        max-width:200px!important;
+    }
+    #main-window:not([chromehidden*="toolbar"])
+    {
+        margin:0!important;
+    }
+ #main-window #TabsToolbar
+    {
+
+       border:0px solid #101010!important;
+        max-height:16px!important;
+        min-height:16px!important;
+        margin-top:0px!important;
+        margin: 1px 0px -1px!important;
+        padding:0!important;
+        -moz-appearance:none!important;
+    }
+    select > button,
+    select > input
+    {
+        opacity:0!important;
+    }
+     
+    body > img.decoded {
+        background:none!important;
+    }
+    #content[disablehistory] {
+        background-color:#161616!important;
+    }
+    .db_progress-bar {
+        background:#7c915a!important;
+    }
+    .db_finishedHbox {
+        background:#424e60!important;
+    }
+    .db_progressVbox > description {
+        font-family:'ProFontWindows'!important;
+        font-size:10px!important;
+        font-weight:400!important;
+    }
+    #_dlbar_finTipContent {
+        background:#222!important;
+        border:0!important;
+        border-radius:0px!important
+    }
+            /* Borders */
+    #browser-border-start, #browser-border-end {
+        display: none!important;
+    }
+    #browser-bottombox {
+        border: none!important;
+    }
+    #browser-topbox {
+        border: none!important;
+    }
+    #navigator-toolbox::after {
+      height: 0px !important;
+    }
+    #addonbar-closebutton {
+       visibility: collapse !important;
+    }
+            /* Bottom-left mouseover URL object */
+    label.statuspanel-label {
+        background:#2d2d2d!important;
+        color:#aaacb9!important;
+        border:0!important;
+        font-family:"haxrcorpttf"!important;
+        font-weight:normal!important;
+        font-size:16px!important;
+    }
+         
+    scrollbar {visibility:collapse !important; }
+    
+    #titlebar-buttonbox-container { display:none!important; }
+
+    .tab-icon-image{display:none !important;}
+    .tab-close-button{display:none !important;}
+    .tab-throbber{display:none !important;}
+    
+    #navigator-toolbox > #TabsToolbar {
+  -moz-binding: url("chrome://global/content/bindings/toolbar.xml#toolbar")
+!important;
+}
